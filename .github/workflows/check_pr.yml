@@ -27,6 +27,10 @@ jobs:
     - name: build Eclipse Jifa
       run: |
         bash gradlew buildJifa
+    - name: deploy script check
+      run: |
+        cd deploy/default_pattern && sh deploy_jifa.sh
+
 
   build_by_jdk_17:
     runs-on: ubuntu-latest
