@@ -104,3 +104,5 @@ Then, you can visit Jifa at `http://localhost:8102`
 
 
 test action
+
+ok
